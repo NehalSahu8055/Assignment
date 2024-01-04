@@ -42,7 +42,7 @@ body{
 /* Header */
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     padding:2.0625rem 0;
     background: var(--light-dark-blue);
@@ -270,7 +270,7 @@ footer .mission{
 }
 
 @media only screen and (min-width:100px) {
-    .crypto-porfolio, .crypto-reasons-invest, .crypto-market-cap,.crypto-map,footer{
+    header,.crypto-porfolio, .crypto-reasons-invest, .crypto-market-cap,.crypto-map,footer{
         padding-inline: 2rem;
     }
 }
