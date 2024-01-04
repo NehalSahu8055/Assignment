@@ -1,0 +1,276 @@
+:root{
+    --navy-blue:#041334;
+    --light-navy-blue:#0A1939;
+    --light-blue:#0c1427;
+    --light-dark-blue:#0d1b3aed;
+    --green:#14FF00;
+    --red:#FF0000;
+    --grey:#858585;
+    --bluegradstart :#3D92EE;
+    --bluegradend:#0997E8;
+    --border:#142346;
+    
+}
+
+/* Resetting css */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width:100%;
+}
+button{
+    text-decoration: none;
+    border:none
+}
+
+/* Main css */
+
+body{
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    background: var(--navy-blue);
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding:2.0625rem 0;
+    background: var(--light-dark-blue);
+    backdrop-filter: 10rem;
+    position: sticky;
+    top:0;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    gap:12.5rem;
+}
+.nav-items{
+    list-style: none;
+    color:white;
+    display: flex;
+    gap:2.5rem;
+    font-weight: 400;
+}
+
+/* Main */
+main{
+    color: white;
+}
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+
+/* Crypto Market Cap */
+.crypto-market-cap{
+    padding-top:5rem;
+    padding-inline:6.5rem;
+    background: var(--light-navy-blue);
+    padding-bottom:5rem;
+}
+.market-cap{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.market-cap_total{
+    color: var(--green);
+    font-weight: 600;
+}
+.market-cap_decrement{
+    color: var(--red);
+    font-weight: 600;
+}
+.view-all{
+    display: block;
+    margin-inline: auto;
+    margin-top:2.5rem;
+    width: 12.5rem;
+    height: 3.75rem;
+    border-radius: 0.5rem;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(var(--bluegradstart),var(--bluegradend));  
+}
+.table{
+    display: grid;
+    gap:2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-inline:1.0625rem;
+    padding-top:4.0625rem;
+}
+.table-head,.table-datas{  
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-datas{
+    font-weight: 400;
+}
+.table-data{
+    display: flex;
+    align-items: center;
+}
+.coin-name{
+    font-weight: 600;
+    padding-right: 1.1875rem;
+    padding-left:1.4375rem;
+}
+.coin-type{
+    color:var(--grey);
+    font-weight: 300;
+}
+
+/* Crypto Map */
+.crypto-map{
+    display: flex;
+    padding:3.25rem 6.5rem;
+    justify-content: space-between;
+}
+.crypto-map .about{
+    max-width: 31.1875rem;
+}
+.crypto-map .about h2{
+    font-size: 2.25rem;
+    font-weight: 400;
+    padding-bottom: 1.5625rem;
+}
+.crypto-map .about-list{
+    padding-top:2.1875rem;
+    display: flex;
+    gap:1.6875rem;
+}
+.icon-box{
+    width: 5rem;
+    height: 5rem;
+    background: var(--light-navy-blue);
+    display: grid;
+    place-content: center;
+}
+
+/* Crypto Reason Invest */
+.crypto-reasons-invest{
+    display: flex;
+    padding:5rem 6.5rem;
+    background: var(--light-navy-blue);
+    /* gap:10rem; */
+    justify-content: space-between;
+}
+.reasons-box{
+    max-width: 33.5625rem;
+}
+.crypto-reasons-invest h2{
+    font-size: 2.25rem;
+    font-weight: 400;
+    padding-bottom:4.375rem; 
+}
+
+/* Crypto Portfolio */
+.crypto-porfolio{
+    height: fit-contents;
+    border-radius: 3rem;
+    border:2px solid var(--border);
+    /* backdrop-filter: 10rem; */
+    display: grid;
+    padding:2.75rem 2.5rem;
+    background:var(--light-blue);
+
+}
+.crypto-porfolio h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 1.75rem;
+}
+.crypto-porfolio .about{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.25rem;
+    
+}
+.crypto-porfolio .about .details{
+    display: flex;
+    flex-direction: column;
+    padding-right:4.8125rem ;
+    padding-left:1.25rem;
+}
+.reason-box{
+    display: flex;
+}
+.reason{
+    font-weight: 300;
+    list-style: none;
+    padding-left: 0.9375rem;
+}
+.reason .main-title{
+    font-weight: 400;
+    font-size:1.25rem;
+}
+
+/* Footer */
+footer{
+    color:white;
+    display: flex;
+    gap:2rem;
+    padding:4.375rem 6.5rem;
+}
+footer .mission{
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 37.8125rem;
+    padding-top:1.25rem;
+}
+.footer-lists{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+.footer-list{
+    display: grid;
+    gap:0.9375rem;
+    list-style: none;
+    font-weight: 300;
+}
+.footer-list_head{
+    font-size: 1.5rem;
+}
+
+/* Auxiliary */
+.weight-200{
+    font-weight: 200;
+}
+.text-grey{
+    color:var(--grey)
+}
+.decrement{
+    color:var(--red)
+}
+.increment{
+    color:var(--green)
+}
+.text-md{
+    font-size:1.125rem;
+}
+
+@media only screen and (min-width:100px) {
+    .crypto-porfolio, .crypto-market-cap,.crypto-map,footer{
+        padding-inline: 2rem;
+    }
+}

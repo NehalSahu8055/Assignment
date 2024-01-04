@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COININTENTION</title>
+
+    <!-- google font linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+       <a href="/" aria-label="HomePage | COININTENTION">
+        <img src="./images/logo.svg" alt="COININTENTION" width="285">
+       </a>
+       <!-- Navbar  -->
+      <nav>
+        <ul class="nav-items">
+            <li class="nav-items_item">Cryptocurrencies</li>
+            <li class="nav-items_item">Exchanges</li>
+            <li class="nav-items_item">Community</li>
+            <li class="nav-items_item">Trades</li>
+        </ul>
+        <img src="./images/icons/search.svg" width="24" height="24" aria-hidden="true" alt="">
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- crypto-market-cap -->
+        <article class="crypto-market-cap">
+            <h1>
+                Today's Cryptocurrency Prices By Market Cap
+            </h1>
+            <p class="market-cap">The global cryptocurrency market cap today is <span class="market-cap_total">$811.7B</span>, a <span class="market-cap_decrement">🡓 0.17%</span> decrease in the last 24 hours.</p>
+    
+            <div class="table">
+                <ul class="table-head">
+                    <li> Name </li>
+                    <li> Price </li>
+                    <li> 24h Change  </li>
+                    <li> Chart </li>
+                    <li> Marketcap </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/bitcoin.svg" width="40" height="40" alt=""> <span class="coin-name">Bitcoin</span> <span class="coin-type">BTC</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/etherum.svg" width="40" height="40" alt=""> <span class="coin-name">Ethereum</span> <span class="coin-type">ETH</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/shibuInu.svg" width="40" height="40" alt=""> <span class="coin-name">ShibuInu</span> <span class="coin-type">Shibu</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data decrement"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#FF0000" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/bitcoin.svg" width="40" height="40" alt=""> <span class="coin-name">Bitcoin</span> <span class="coin-type">BTC</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/etherum.svg" width="40" height="40" alt=""> <span class="coin-name">Ethereum</span> <span class="coin-type">ETH</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/shibuInu.svg" width="40" height="40" alt=""> <span class="coin-name">ShibuInu</span> <span class="coin-type">Shibu</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data decrement"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#FF0000" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/bitcoin.svg" width="40" height="40" alt=""> <span class="coin-name">Bitcoin</span> <span class="coin-type">BTC</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/etherum.svg" width="40" height="40" alt=""> <span class="coin-name">Ethereum</span> <span class="coin-type">ETH</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/shibuInu.svg" width="40" height="40" alt=""> <span class="coin-name">ShibuInu</span> <span class="coin-type">Shibu</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data decrement"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#FF0000" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/bitcoin.svg" width="40" height="40" alt=""> <span class="coin-name">Bitcoin</span> <span class="coin-type">BTC</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/etherum.svg" width="40" height="40" alt=""> <span class="coin-name">Ethereum</span> <span class="coin-type">ETH</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data increment"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#14FF00" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+                <ul class="table-datas ">
+                    <li class="table-data"><img src="./images/icons/shibuInu.svg" width="40" height="40" alt=""> <span class="coin-name">ShibuInu</span> <span class="coin-type">Shibu</span> </li>
+                    <li class="table-data"> $3625.24 </li>
+                    <li class="table-data decrement"> +2.4%  </li>
+                    <li class="table-data"> 
+                        <svg width="60" height="25" viewBox="0 0 60 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke="#FF0000" d="M1 24L6.27273 14.7907L10.2273 18.8837L11.5455 15.3023L14.8409 14.2791L17.4773 12.2326L18.1364 10.186L18.7955 12.2326L20.7727 16.8372L23.4091 19.3953V22.4651L28.0227 19.3953L30 10.6977L31.9773 7.11628L35.2727 11.7209L37.25 15.814L38.5682 19.907L41.8636 16.3256L43.8409 12.7442L45.8182 10.186L47.7955 8.13953L49.1136 5.5814L50.4318 4.55814L51.75 9.16279L55.0455 6.09302L55.7045 3.02326L57.6818 2L59 7.11628" stroke="#14FF00" stroke-width="2"/>
+                        </svg>
+                    </li>
+                    <li class="table-data"> $320,893,271,955 </li>
+                </ul>
+            </div>
+            <button class="view-all">View All</button>
+        </article>
+
+        <!-- crypto-map -->
+        <article class="crypto-map">
+            <img class="map-illustration" src="/images/illustrations/map.svg" alt="Illustration crypot map">
+            <div class="about">
+                <h2>We are the most trusted 
+                    Cryptocurrency  Platform
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio 
+                    mattis.
+                </p>
+                <ul class="about-list">
+                    <div class="icon-box">
+                        <img src="/images/icons/eye.svg" alt="">
+                    </div>
+                    <ul class="">
+                        <li class="text-md">Clarity</li>
+                        <li class="weight-200 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</li>
+                    </ul>
+                </ul>
+                <ul class="about-list">
+                    <div class="icon-box">
+                        <img src="/images/icons/genuine.svg" alt="">
+                    </div>
+                    <ul class="">
+                        <li class="text-md">Confidence</li>
+                        <li class="weight-200 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</li>
+                    </ul>
+                </ul>
+                <ul class="about-list">
+                    <div class="icon-box">
+                        <img src="/images/icons/team.svg" alt="">
+                    </div>
+                    <ul class="">
+                        <li class="text-md">Community</li>
+                        <li class="weight-200 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</li>
+                    </ul>
+                </ul>
+            </div>
+        </article>
+
+        <!-- crypto-reasons-invest -->
+        <article class="crypto-reasons-invest">
+          <div class="reasons-box">
+            <h2>Reason to invest in Cryptocurrency in 2022</h2>
+            
+            <div class="reason-box">
+             <img src="./images/icons/tick.svg" width="30" height="30" alt="">
+             <ul class="reason">
+                 <li class="main-title">Buying Bitcoin in legal</li>
+                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                     Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                     Class aptent taciti sociosqu ad.
+                 </li>
+             </ul>
+            </div>
+ 
+            <div class="reason-box">
+             <img src="./images/icons/tick.svg" width="30" height="30" alt="">
+             <ul class="reason">
+                 <li class="main-title">High return potential </li>
+                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                     Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                     Class aptent taciti sociosqu ad.
+                 </li>
+             </ul>
+             </div>
+             
+             <div class="reason-box">
+             <img src="./images/icons/tick.svg" width="30" height="30" alt="">
+             <ul class="reason">
+                 <li class="main-title">Growing alternative assest class</li>
+                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                     Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                     Class aptent taciti sociosqu ad.
+                 </li>
+             </ul>
+             </div>
+          </div>
+          <div class="crypto-porfolio">
+            <h3>Your portfolio is <span class="increment">up 2.13%</span></h3>
+            <ul >
+                <li class="about">
+                    <img src="/images/icons/reason-bitcoin.svg" width="60" height="60" alt="">
+                    <span class="details">
+                        <span>Ethereum</span> 
+                        <span class="weight-200 ">ETH</span>
+                    </span>
+                    <span class="increment">1.33% ↑</span>
+                </li>
+                <li class="about">
+                    <img src="/images/icons/reason-etherum.svg" width="60" height="60" alt="">
+                    <span class="details">
+                        <span>Ethereum</span> 
+                        <span class="weight-200 ">ETH</span>
+                    </span>
+                    <span class="increment">1.33% ↑</span>
+                </li>
+                <li class="about">
+                    <img src="/images/icons/reason-litecoin.svg" width="60" height="60" alt="">
+                    <span class="details">
+                        <span>Ethereum</span> 
+                        <span class="weight-200 ">ETH</span>
+                    </span>
+                    <span class="increment">1.33% ↑</span>
+                </li>
+                <li class="about">
+                    <img src="/images/icons/reason-bitcoin.svg" width="60" height="60" alt="">
+                    <span class="details">
+                        <span>Ethereum</span> 
+                        <span class="weight-200 ">ETH</span>
+                    </span>
+                    <span class="increment">1.33% ↑</span>
+                </li>
+                <li class="about">
+                    <img src="/images/icons/reason-etherum.svg" width="60" height="60" alt="">
+                    <span class="details">
+                        <span>Ethereum</span> 
+                        <span class="weight-200 ">ETH</span>
+                    </span>
+                    <span class="increment">1.33% ↑</span>
+                </li>
+            </ul>
+          </div>
+
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>  
+            <article>
+                <a href="/" aria-label="HomePage | COININTENTION">
+                    <img src="./images/logo.svg" alt="COININTENTION" width="285">
+                </a> 
+                <p class="mission">
+                    CoinIntention's mission is to make investing in cryptocurrencies easy and efficient. CoinIntention tracks various data of cryptocurrencies and thus offers its users an overview of all cryptocurrencies available on the market and their performance, market capitalization, trading volume, etc.
+                </p>
+            </article>
+            <article class="footer-lists">
+                <ul class="company footer-list">
+                    <li class="footer-list_head">Company</li>
+                    <li>About us</li>
+                    <li>Terms of use</li>
+                    <li>Privacy Policy</li>
+                    <li>Community Rules</li>
+                    <li>Disclaimer</li>
+                    <li>Methodology</li>
+                </ul>
+                <ul class="support footer-list">
+                    <li class="footer-list_head">Support</li>
+                    <li>Requested Form</li>
+                    <li>Contact Support</li>
+                    <li>PFAQ’s</li>
+                    <li>Glossary</li>
+                   
+                </ul>
+                <ul class="socials footer-list">
+                    <li class="footer-list_head">Socials</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <li>Telegram</li>
+                </ul>
+              
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
