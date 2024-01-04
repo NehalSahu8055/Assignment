@@ -270,7 +270,7 @@ footer .mission{
 }
 
 @media only screen and (min-width:100px) {
-    .crypto-porfolio, .crypto-market-cap,.crypto-map,footer{
+    .crypto-porfolio, .crypto-reasons-invest, .crypto-market-cap,.crypto-map,footer{
         padding-inline: 2rem;
     }
 }
