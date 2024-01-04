@@ -27,7 +27,8 @@ img{
 }
 button{
     text-decoration: none;
-    border:none
+    border:none;
+    cursor:pointer;
 }
 
 /* Main css */
