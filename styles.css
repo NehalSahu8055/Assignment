@@ -186,10 +186,9 @@ h1{
     height: fit-contents;
     border-radius: 3rem;
     border:2px solid var(--border);
-    /* backdrop-filter: 10rem; */
     display: grid;
     padding:2.75rem 2.5rem;
-    background:var(--light-blue);
+    background:var(--border);
 
 }
 .crypto-porfolio h3{
